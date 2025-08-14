@@ -1,5 +1,7 @@
 "use client";
 
+// Todo: change it back to your old code later for use ai component
+
 import { useEffect, useState } from "react";
 
 type CategoryProps = { heading: string };
