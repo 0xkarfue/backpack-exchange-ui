@@ -1,12 +1,17 @@
-import Carousel from "@/components/Carousel";
-import MarketCategoryCard from "@/components/MarketCategoryCard";
-import MarketOverview from "@/components/MarketOverview";
-import Nav from "@/components/Nav";
+import Carousel from "@/components/LandingComponents/Carousel";
+import MarketCategoryCard from "@/components/LandingComponents/MarketCategoryCard";
+import MarketOverview from "@/components/LandingComponents/MarketOverview";
+import Nav from "@/components/LandingComponents/Nav";
+import { TradeOption } from "@/components/LandingComponents/NavComponents";
+import {Btn1, Btn2} from "@/components/MarketComponents/Button";
+import Input from "@/components/MarketComponents/Input";
+import OrderOption from "@/components/MarketComponents/OrderOption";
+import Range from "@/components/MarketComponents/Range";
 
 export default function Home() {
   return (
     <div>
-      <Nav/>
+      {/* <Nav/>
       <Carousel/>
       <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center items-center">
       <MarketCategoryCard heading="Coin"/>
@@ -15,7 +20,10 @@ export default function Home() {
       </div>
       <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center items-center">
       <MarketOverview/>
-      </div>
+      </div> */}
+
+      <OrderOption/>
+      
     </div>
   );
 }
