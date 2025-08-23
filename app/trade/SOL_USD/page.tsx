@@ -1,3 +1,4 @@
+import Orderbook from "@/components/MarketComponents/Orderbook";
 import OrderOption from "@/components/MarketComponents/OrderOption";
 import SOLUSDChart from "@/components/TradingViewComponents/SOL_USD";
 
@@ -7,7 +8,10 @@ export default function () {
       <div className="w-[70%]">
         <SOLUSDChart />
       </div>
-      <OrderOption/>
+      <div>
+        {/* <Orderbook /> */}
+      </div>
+      <OrderOption />
     </div>
   )
 }
